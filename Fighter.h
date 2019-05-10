@@ -11,6 +11,8 @@ using namespace std;
 
 class Fighter {
 public:
+    int nataques;
+    int ndefensas;
     vector<Attack> ataques;
     vector<Defense> defensas;
 
@@ -20,9 +22,10 @@ public:
 };
 
 class BruceLee: public Fighter{
-    int nataques;
-    int ndefensas;
 public:
+
+    string nombre="BL";
+    string get_nombre(){return nombre;};
     BruceLee(): Fighter{}{};
     BruceLee(int n_ataques, int n_defensas): Fighter{}{
         nataques=n_ataques;
@@ -75,9 +78,10 @@ public:
 };
 
 class ChuckNorris: public Fighter{
-    int nataques;
-    int ndefensas;
 public:
+
+    string nombre="CN";
+    string get_nombre(){return nombre;};
     ChuckNorris() : Fighter{}{};
     ChuckNorris(int n_ataques, int n_defensas): Fighter{}{
         nataques=n_ataques;
@@ -130,9 +134,10 @@ public:
 };
 
 class JasonStanham: public Fighter{
-    int nataques;
-    int ndefensas;
 public:
+
+    string nombre="JS";
+    string get_nombre(){return nombre;};
     JasonStanham():Fighter{}{};
     JasonStanham(int n_ataques, int n_defensas): Fighter{}{
         nataques=n_ataques;

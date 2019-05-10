@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pc2.dir/Fighter.cpp.obj"
   "CMakeFiles/pc2.dir/Fight.cpp.obj"
   "CMakeFiles/pc2.dir/Arena.cpp.obj"
+  "CMakeFiles/pc2.dir/test.cpp.obj"
   "pc2.pdb"
   "pc2.exe"
   "pc2.exe.manifest"

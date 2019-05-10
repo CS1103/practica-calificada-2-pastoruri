@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/rodrigo.cespedes/Desktop/pc2/Fight.cpp" "C:/Users/rodrigo.cespedes/Desktop/pc2/cmake-build-debug/CMakeFiles/pc2.dir/Fight.cpp.obj"
   "C:/Users/rodrigo.cespedes/Desktop/pc2/Fighter.cpp" "C:/Users/rodrigo.cespedes/Desktop/pc2/cmake-build-debug/CMakeFiles/pc2.dir/Fighter.cpp.obj"
   "C:/Users/rodrigo.cespedes/Desktop/pc2/main.cpp" "C:/Users/rodrigo.cespedes/Desktop/pc2/cmake-build-debug/CMakeFiles/pc2.dir/main.cpp.obj"
+  "C:/Users/rodrigo.cespedes/Desktop/pc2/test.cpp" "C:/Users/rodrigo.cespedes/Desktop/pc2/cmake-build-debug/CMakeFiles/pc2.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

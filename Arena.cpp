@@ -9,9 +9,10 @@ void Arena::run(Fighter a, Fighter b) {
     int sc1,sc2;
     sc1=a.defense() - b.attack();
     sc2=b.defense() - a.attack();
-    if(sc1>sc2){cout<<"Peleador 1 ha ganado"; fights[0].winner=&a;}
-    else if(sc2>sc1){cout<<"Peleador 2 ha ganado";fights[0].winner=&b;}
-    else{cout<<"Ha ocurrido un empate";}
+    if(sc1>sc2){cout<<"Peleador 1 ha ganado"<<endl; fights[0].winner=&a;fights[0].score=sc1;}
+    else if(sc2>sc1){cout<<"Peleador 2 ha ganado"<<endl;fights[0].winner=&b;fights[0].score=sc2;}
+    else{cout<<"Ha ocurrido un empate"<<endl;}
+
 }
 
 vector<Fight> Arena::get_fights() {

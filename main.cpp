@@ -2,7 +2,9 @@
 #include "Arena.h"
 #include "Fighter.h"
 #include "Fight.h"
-
+#define CATCH_CONFIG_MAIN
+#include "catch.hpp"
+#ifndef CATCH_CONFIG_MAIN
 int main() {
 //me falta hacer la prueba, pero estoy creando una arena y corriendo una pelea con
 //dos peleadores, el segundo es mas debil como se obserba en el constructor, por lo que
@@ -11,3 +13,4 @@ int main() {
     a.run(JasonStanham(3,3),ChuckNorris(2,2));
 
 }
+#endif

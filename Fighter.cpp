@@ -14,7 +14,7 @@ int Fighter::attack() {
 }
 
 int Fighter::defense() {
-    int aux;
+    int aux=0;
     for(int i=0; i<defensas.size();i++){
         aux+=defensas[i].level;
     }

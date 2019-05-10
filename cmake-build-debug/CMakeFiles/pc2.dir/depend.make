@@ -31,5 +31,14 @@ CMakeFiles\pc2.dir\main.cpp.obj: ..\Attack.h
 CMakeFiles\pc2.dir\main.cpp.obj: ..\Defense.h
 CMakeFiles\pc2.dir\main.cpp.obj: ..\Fight.h
 CMakeFiles\pc2.dir\main.cpp.obj: ..\Fighter.h
+CMakeFiles\pc2.dir\main.cpp.obj: ..\catch.hpp
 CMakeFiles\pc2.dir\main.cpp.obj: ..\main.cpp
+
+CMakeFiles\pc2.dir\test.cpp.obj: ..\Arena.h
+CMakeFiles\pc2.dir\test.cpp.obj: ..\Attack.h
+CMakeFiles\pc2.dir\test.cpp.obj: ..\Defense.h
+CMakeFiles\pc2.dir\test.cpp.obj: ..\Fight.h
+CMakeFiles\pc2.dir\test.cpp.obj: ..\Fighter.h
+CMakeFiles\pc2.dir\test.cpp.obj: ..\catch.hpp
+CMakeFiles\pc2.dir\test.cpp.obj: ..\test.cpp
 

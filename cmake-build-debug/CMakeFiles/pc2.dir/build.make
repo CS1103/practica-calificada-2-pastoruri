@@ -172,6 +172,25 @@ CMakeFiles\pc2.dir\Arena.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\pc2.dir\Arena.cpp.s /c C:\Users\rodrigo.cespedes\Desktop\pc2\Arena.cpp
 <<
 
+CMakeFiles\pc2.dir\test.cpp.obj: CMakeFiles\pc2.dir\flags.make
+CMakeFiles\pc2.dir\test.cpp.obj: ..\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodrigo.cespedes\Desktop\pc2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pc2.dir/test.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\pc2.dir\test.cpp.obj /FdCMakeFiles\pc2.dir\ /FS -c C:\Users\rodrigo.cespedes\Desktop\pc2\test.cpp
+<<
+
+CMakeFiles\pc2.dir\test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pc2.dir/test.cpp.i"
+	C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\pc2.dir\test.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodrigo.cespedes\Desktop\pc2\test.cpp
+<<
+
+CMakeFiles\pc2.dir\test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pc2.dir/test.cpp.s"
+	C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\pc2.dir\test.cpp.s /c C:\Users\rodrigo.cespedes\Desktop\pc2\test.cpp
+<<
+
 # Object files for target pc2
 pc2_OBJECTS = \
 "CMakeFiles\pc2.dir\main.cpp.obj" \
@@ -179,7 +198,8 @@ pc2_OBJECTS = \
 "CMakeFiles\pc2.dir\Attack.cpp.obj" \
 "CMakeFiles\pc2.dir\Fighter.cpp.obj" \
 "CMakeFiles\pc2.dir\Fight.cpp.obj" \
-"CMakeFiles\pc2.dir\Arena.cpp.obj"
+"CMakeFiles\pc2.dir\Arena.cpp.obj" \
+"CMakeFiles\pc2.dir\test.cpp.obj"
 
 # External object files for target pc2
 pc2_EXTERNAL_OBJECTS =
@@ -190,9 +210,10 @@ pc2.exe: CMakeFiles\pc2.dir\Attack.cpp.obj
 pc2.exe: CMakeFiles\pc2.dir\Fighter.cpp.obj
 pc2.exe: CMakeFiles\pc2.dir\Fight.cpp.obj
 pc2.exe: CMakeFiles\pc2.dir\Arena.cpp.obj
+pc2.exe: CMakeFiles\pc2.dir\test.cpp.obj
 pc2.exe: CMakeFiles\pc2.dir\build.make
 pc2.exe: CMakeFiles\pc2.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rodrigo.cespedes\Desktop\pc2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable pc2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rodrigo.cespedes\Desktop\pc2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pc2.exe"
 	"C:\Program Files\JetBrains\CLion 2018.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\pc2.dir --manifests  -- C:\PROGRA~2\MICROS~4\2017\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\pc2.dir\objects1.rsp @<<
  /out:pc2.exe /implib:pc2.lib /pdb:C:\Users\rodrigo.cespedes\Desktop\pc2\cmake-build-debug\pc2.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

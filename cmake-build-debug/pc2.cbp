@@ -117,6 +117,9 @@
 		<Unit filename="C:/Users/rodrigo.cespedes/Desktop/pc2/main.cpp">
 			<Option target="pc2"/>
 		</Unit>
+		<Unit filename="C:/Users/rodrigo.cespedes/Desktop/pc2/test.cpp">
+			<Option target="pc2"/>
+		</Unit>
 		<Unit filename="C:/Users/rodrigo.cespedes/Desktop/pc2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
