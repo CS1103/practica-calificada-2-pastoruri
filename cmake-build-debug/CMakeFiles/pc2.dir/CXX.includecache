@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rodrigo.cespedes/Desktop/pc2/Arena.h
+vector
+-
+Fight.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Fight.h
+
+C:/Users/rodrigo.cespedes/Desktop/pc2/Attack.h
+
+C:/Users/rodrigo.cespedes/Desktop/pc2/Defense.h
+Attack.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Attack.h
+
+C:/Users/rodrigo.cespedes/Desktop/pc2/Fight.h
+Fighter.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Fighter.h
+
+C:/Users/rodrigo.cespedes/Desktop/pc2/Fighter.h
+vector
+-
+Attack.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Attack.h
+Defense.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Defense.h
+iostream
+-
+
+C:/Users/rodrigo.cespedes/Desktop/pc2/main.cpp
+iostream
+-
+Arena.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Arena.h
+Fighter.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Fighter.h
+Fight.h
+C:/Users/rodrigo.cespedes/Desktop/pc2/Fight.h
+
