@@ -14,7 +14,7 @@ REQUIRE(b->nataques==b->ndefensas);
 }
 }
 
-SCENARIO("La cantidad total ataques y defensas del peleador e sera 3 y La cantidad de ataques y defensas del peleador 3 sera 3,"){
+SCENARIO("La cantidad total ataques y defensas del peleador 1 sera 3 y La cantidad de ataques y defensas del peleador 2 sera 3,"){
     GIVEN("Ninguno deberia ganar, pues son igual de poderosos, el arena.fights[0].winner debería ser un nullptr"){
         Arena a;
         a.run(JasonStanham(3,3),ChuckNorris(3,3));
